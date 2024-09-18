@@ -326,19 +326,19 @@ window.addEventListener('scroll', () => {
   });
 });
 
-const countUp1 = new CountUp('CountUp1', 0,{enableScrollSpy: true,duration: 3,onCompleteCallback: ()=>addPlus(0)});
+const countUp1 = new CountUp('CountUp1', 30,{enableScrollSpy: true,duration: 3,onCompleteCallback: ()=>addPlus(0)});
 if (!countUp1.error) {
     countUp1.start();
   } else {
     console.error(countUp1.error);
   }
-const countUp2 = new CountUp('CountUp2', 0,{enableScrollSpy: true,duration: 3,onCompleteCallback: ()=>addPlus(1)});
+const countUp2 = new CountUp('CountUp2', 850,{enableScrollSpy: true,duration: 3,onCompleteCallback: ()=>addPlus(1)});
 if (!countUp2.error) {
     countUp2.start();
 } else {
     console.error(countUp2.error);
 }
-const countUp3 = new CountUp('CountUp3', 0,{enableScrollSpy: true,duration: 3,onCompleteCallback: ()=>addPlus(2)});
+const countUp3 = new CountUp('CountUp3', 900,{enableScrollSpy: true,duration: 3,onCompleteCallback: ()=>addPlus(2)});
 if (!countUp3.error) {
     countUp3.start();
     } else {

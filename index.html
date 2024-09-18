@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulting Firm</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <!-- Logo and Menu -->
+      <div class="logo">
+        <h1>Consulting Firm</h1>
+      </div>
+      <nav>
+        <ul id="menu" class="menu">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#our-work">Our Work</a></li>
+          <li><a href="#people">Our People</a></li>
+          <li><a href="#insights">Our Insights</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="auth">
+        <a href="#">Sign In</a> | 
+        <a href="#">Subscribe</a>
+      </div>
+      <div class="search">
+        <i class="search-icon">&#128269;</i> <!-- Search icon Unicode -->
+      </div>
+      <!-- Hamburger icon for mobile view -->
+      <div id="hamburger" class="hamburger">
+        &#9776;
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="content">
+        <h2>Welcome to <span3 class="hover">Consulting</span3> Firm</h2>
+        <p>We provide solutions for some of the most complex business challenges.</p>
+        <a href="#our-work" class="btn">Learn More</a>
+    <div class="waves"></div>
+  </section>
+
+  <section id="discription">
+    <div class="container discription">
+        <div id="dicriptionpara">
+            <img src="./assets/images/icons8-double-quotes-100.png" alt="">
+            <p>
+                We work with India's largest companies--helping several become global champions--and with smaller, dynamic ones looking to mobilize change and <span class="hover">accelerate sustainable and inclusive growth.</span> We partner with government leaders to help drive growth and build capabilities. Our insights are shaped by leading industry experts, cutting-edge digital and analytics tools, and our decades of experience serving the world’s largest corporations.
+            </p>
+        </div>
+    </div>
+  </section>
+
+  <section id="impact">
+    <div>
+        <h1>OUR IMPACT</h1>
+        <div class="impactcontainer">
+            <div>
+                <h1 class="specialNumber" id="CountUp1">30</h1>
+                <h2>years in India,</h2>
+                <p>opening our first office in Mumbai</p>
+            </div>
+            <div style="border-left:2px solid black;padding-left: 100px;">
+                <h1 class="specialNumber" id="CountUp2">900+</h1>
+                <h2>engagements</h2>
+                <p>completed since 2017</p>
+            </div>            
+            <div style="border-left:2px solid black;padding-left: 100px;">
+                <h1 class="specialNumber"  id="CountUp3">850+</h1>
+                <h2>partners and consultant</h2>
+                <p>across four locations</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="featuredInsight" style="background-color: #f2f2f2;">
+    <div class="insight">
+        <h1 style="font-size: .9rem; font-weight: 600;">FEATURED INSIGHT</h1>
+        <div style="display: flex; justify-content: center;">
+            <div class="insightcontainer">
+                <img src="./assets/images/india-ahead-thumb_1536x1536-v2.jpeg" alt="" id="insightimage">
+                <div>
+                <h1>India Ahead <span2>></span2></h1>
+                <p style="text-align: left;">As India crosses 75 years of independence, governments, businesses and local communities are looking ahead to create sustainable, inclusive growth and opportunities to fulfil the country’s true potential. Browse key insights in this collection of interviews, reports and multimedia content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="featuredInsight">
+    <div class="insight">
+        <h1 style="font-size: .9rem; font-weight: 600;">OUR VIEW</h1>
+        <div style="display: flex; justify-content: center;">
+            <div class="insightcontainer" style="max-width: 100%; display: flex; flex-wrap: wrap;">
+                <iframe style="width: 100%; height: auto;" src="https://www.youtube.com/embed/eI4an8aSsgw" frameborder="0" allowfullscreen></iframe>
+                <div>
+                    <h1 style="font-size: 2.8rem;">What’s ahead for India<span style="font-size: 3rem;"> ></span></h1>
+                    <p style="text-align: left;">India, like the rest of the world, is grappling with profound uncertainty triggered by a combination of shocks. At the same time, there are several tailwinds that have the potential to power India’s growth. Three McKinsey experts discuss the challenges and opportunities for a unique sustainable and economic growth model for India.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Our Work Section -->
+  <section id="our-work">
+    <div class="container">
+      <h2>Our Work</h2>
+      <p>We deliver top-notch business strategies to companies worldwide.</p>
+    </div>
+  </section>
+
+  <!-- Our People Section -->
+  <section id="people">
+    <div>
+      <h2>Our People</h2>
+      <div style="display: flex; justify-content: center; margin: 30px;">
+        <div class="card" style="padding: 30px;" >
+            <img src="./assets/images/team/pranjal.jpeg" alt="John" class="cardImage" style="width: 80%;">
+            <h1>Pranjal Mishra</h1>
+            <p class="title">Networking Head</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="card" style="padding: 30px;">
+            <img src="./assets/images/team/pihu.jpeg" alt="John" class="cardImage" style="width: 100%;">
+            <h1>Pihu Soni</h1>
+            <p class="title">President</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="card" style="padding: 30px;">
+            <img src="./assets/images/team/aryan_Soni.jpeg" alt="John" class="cardImage" style="width: 80%;">
+            <h1>Aaryan Soni</h1>
+            <p class="title">IT Head</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;margin: 30px;">
+        <div class="card" style="padding: 30px;">
+            <img src="./assets/images/team/Vijay_Bharti.jpeg" alt="John" class="cardImage">
+            <h1>Vijay Bharti</h1>
+            <p class="title">Strategy Making And Rsearch</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="card" style="padding: 30px;">
+            <img src="./assets/images/team/dev_jindal.jpeg" alt="John" class="cardImage">
+            <h1>Dev Jindal</h1>
+            <p class="title">Social Media Head</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="card" style="padding: 30px;">
+            <img src="./assets/images/team/azad_nisar.jpeg" alt="John" class="cardImage">
+            <h1>Azad Nisar</h1>
+            <p class="title">Team Building</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; margin: 30px;">
+        <div class="card" style="padding: 30px;">
+            <img src="./assets/images/team/Aabir_Sarkar.jpeg" alt="John" class="cardImage">
+            <h1>Aabir Sarkar</h1>
+            <p class="title">Content Head</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="card" style="padding: 30px;">
+            <img src="./assets/images/team/vaidehi_sahu.jpeg" alt="John" class="cardImage">
+            <h1>Vaidehi Sahu</h1>
+            <p class="title">Point Of Contact</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="card" style="padding: 30px;">
+            <img src="./assets/images/team/mohan_kumar_C_R.jpeg" alt="John" class="cardImage">
+            <h1>Mohan Kumar C R</h1>
+            <p class="title">Community Outreach</p>
+            <p></p>
+            <div style="display: flex; gap: 12px; justify-content: center;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Insights Section -->
+  <section id="insights">
+    <div class="container">
+      <h2>Our Insights</h2>
+      <p>Get access to our reports, research, and industry insights.</p>
+    </div>
+  </section>
+
+  <!-- Careers Section -->
+  <section id="careers">
+    <div class="container">
+      <h2>Careers</h2>
+      <p>Join us in solving business challenges that matter.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2>Our Locations</h2>
+    <div class="tabs">
+        <button class="tab-link" onclick="openLocation(event, 'Bengaluru')" id="defaultOpen">Bengaluru</button>
+        <button class="tab-link" onclick="openLocation(event, 'Chennai')">Chennai</button>
+        <button class="tab-link" onclick="openLocation(event, 'Gurugram')">Gurugram</button>
+        <button class="tab-link" onclick="openLocation(event, 'Mumbai')">Mumbai</button>
+    </div>
+
+    <div id="Bengaluru" class="tab-content">
+        <div class="info">
+            <h3>Bengaluru</h3>
+            <p>6th Floor, 1 SOBHA<br>
+               No: 50, St. Marks Road,<br>
+               Bengaluru 560001, India<br>
+               Voice: +91 (80) 66744000<br>
+               Fax: +91 (80) 66744400</p>
+            <a href="https://www.google.com/maps" target="_blank">Open in Google Maps →</a>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <div id="Chennai" class="tab-content">
+        <div class="info">
+            <h3>Chennai</h3>
+            <!-- Chennai details go here -->
+        </div>
+        <div id="map-chennai"></div>
+    </div>
+
+    <!-- Other locations similar to above -->
+</div>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>We would love to hear from you. Get in touch with us today!</p>
+    </div>
+  </section>
+  <div class="cursor-dot-outline"></div>
+  <div class="cursor-dot"></div>
+
+
+
+<footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                        <p>Don’t miss any updates of our new templates and extensions.!</p>
+                        <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                            <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                            <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                            <p class="mchimp-errmessage" style="display: none;"></p>
+                            <p class="mchimp-sucmessage" style="display: none;"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                        <ul class="list-unstyled f_list">
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Android App</a></li>
+                            <li><a href="#">ios App</a></li>
+                            <li><a href="#">Desktop</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">My tasks</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                        <ul class="list-unstyled f_list">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Term &amp; conditions</a></li>
+                            <li><a href="#">Reporting</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Support Policy</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                        <div class="f_social_icon">
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-pinterest"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bg">
+            <div class="footer_bg_one"></div>
+            <div class="footer_bg_two"></div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-7">
+                    <p class="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 col-sm-5 text-right">
+                    <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">CakeCounter</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
